@@ -1,11 +1,7 @@
-import app from './app';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app.js';
 
-const startApp = async () => {
-  const header = document.querySelector('[data-app-name]');
-  if (!header) return;
+const element = document.querySelector('[data-team-245]');
 
-  const programName = await app();
-  header.textContent = programName;
-};
-
-document.addEventListener('DOMContentLoaded', startApp);
+ReactDOM.render(<App />, element);
