@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "<images>": "./src/assets/images",
+          "<variables>": "./src/assets/styles/variables",
+          "<core>": "./src/core/",
+          "<components>": "./src/components/",
+          "<atoms>": "./src/components/UI/atoms/",
+          "<molecules>": "./src/components/UI/molecules/",
+          "<organisms>": "./src/components/UI/organisms/",
+          "<templates>": "./src/components/templates/",
+          "<pages>": "./src/components/pages/"
+        }
+      }
+    ]
+  ]
+}

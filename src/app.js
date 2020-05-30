@@ -1,10 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import BaseRoutes from '<components>/BaseRoutes';
 import './assets/styles/main.scss';
+
+import { ThemeProvider, CSSReset } from '@chakra-ui/core';
+import theme from '../theme';
+
 const App = () => {
   return (
-    <div>
-      <h1>Team 245 Project Title</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CSSReset />
+      <Router>
+        <BaseRoutes />
+      </Router>
+    </ThemeProvider>
   );
 };
 

@@ -1,3 +1,63 @@
+@font-face {
+  font-family: 'Inter Regular';
+  src: url(../fonts/Inter-VariableFont.ttf) format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Inter Bold';
+  src: url(../fonts/Inter-VariableFont.ttf) format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter Black';
+  src: url(../fonts/Inter-VariableFont.ttf) format('truetype');
+  font-weight: 700;
+}
+
+$primary-color: #388eff;
+$secondary-color: #302c5b;
+$text-color: #6e6e6e;
+$neutral-color: #feffff;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: white;
+  font-family: 'Inter Regular', sans-serif;
+  color: $text-color;
+}
+
+button {
+  background-color: $primary-color;
+  color: $neutral-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $secondary-color;
+  font-family: 'Inter Black' !important;
+}
+
+h6,
+button {
+  font-family: 'Inter Bold' !important;
+  color: $text-color;
+}
+p,
+input {
+  color: $text-color;
+  font-family: 'Inter Regular' !important;
+  padding: 0.5em 0;
 }
