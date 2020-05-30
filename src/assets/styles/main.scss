@@ -45,19 +45,27 @@ button {
 h1,
 h2,
 h3,
-h4 {
+h4,
+label {
   color: $secondary-color;
   font-family: 'Inter Black' !important;
 }
 
 h6,
-button {
+button,
+label {
   font-family: 'Inter Bold' !important;
   color: $text-color;
 }
+
 p,
 input {
   color: $text-color;
   font-family: 'Inter Regular' !important;
   padding: 0.5em 0;
+}
+
+label {
+  color: $secondary-color;
+  text-transform: capitalize;
 }

@@ -6502,7 +6502,7 @@ react-spring@^8.0.27:
     "@babel/runtime" "^7.3.1"
     prop-types "^15.5.8"
 
-react@^16.13.1:
+react@>=16.8.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
@@ -7877,6 +7877,11 @@ use-dark-mode@2.3.1:
   dependencies:
     "@use-it/event-listener" "^0.1.2"
     use-persisted-state "^0.3.0"
+
+use-file-input@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/use-file-input/-/use-file-input-1.0.0.tgz#eb452ec71088e89f6711686fc87268c110b8bf47"
+  integrity sha512-1z2MOL9n3fy6SpodqLT2RfMeQRHbbLxydXYbdz48oOQaiEnrjdkg/LgiFaPNTwW1Qd8tX583GmbN5xIRXEgM1Q==
 
 use-persisted-state@^0.3.0:
   version "0.3.0"

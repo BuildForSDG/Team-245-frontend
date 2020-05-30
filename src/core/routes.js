@@ -1,5 +1,5 @@
 import LandingPage from '<pages>/LandingPage';
-import ReportPage from '<pages>/LandingPage';
+import ReportPage from '<pages>/ReportCollectionPage';
 
 export const UnauthenticatedRoutes = {
   default: [

@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '<atoms>/Button/Button';
+import Link from '<atoms>/Link/Link';
 import heroImage from '<images>/hero_image.svg';
 import { Image, Box, Text } from '@chakra-ui/core';
 
@@ -24,7 +25,9 @@ const Hero = () => (
         Take advantage of our safe and anonymous platform, submit a report along with your evidences and let us do the
         rest
       </Text>
-      <Button>Submit a Report</Button>
+      <Button>
+        <Link to="/report">Submit a Report</Link>
+      </Button>
     </Box>
   </Box>
 );
